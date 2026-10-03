@@ -8,7 +8,7 @@ print("\tKnow where your money goes.")
 print("=" * 40)
 
 name = input("Enter your name: ")
-print("\nWelcome, " + name + "! Let's log two expenses.\n")
+print(f"\nWelcome, {name}! Let's log two expenses.\n")
 
 print("MAIN MENU")
 print("\t[1] Add an expense\t(coming soon)")
@@ -25,12 +25,12 @@ amount2 = float(input("Expense 2 - amount: "))
 total = amount1 + amount2
 average = total / 2
 
-print("\n" + "-" * 40)
+print("-" * 40)
 print("SUMMARY")
 print(f"{item1:<25}{amount1:>10.2f}")
 print(f"{item2:<25}{amount2:>10.2f}")
 print(f"{'Total spent':<25}{total:>10.2f}")
 print(f"{'Average':<25}{average:>10.2f}")
 print("-" * 40)
-print("Made by: " + name + " | Installment 2")
+print(f"Made by: {name} | Installment 2")
 print("=" * 40)
