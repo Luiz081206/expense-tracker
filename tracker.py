@@ -77,5 +77,5 @@ else:
     print(f"Within budget. ${left} left.")
 
 print("-" * 40)
-print("Made by: Luiz Mandy R. Moldes | Installment 4")
+print("Made by: Luiz Mandy R. Moldes  |  Installment 4")
 print("=" * 40)
